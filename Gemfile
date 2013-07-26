@@ -26,6 +26,7 @@ group :test do
   gem 'vcr'
   gem 'webmock'
   gem 'meta_request'
+  gem 'factory_girl_rails', '4.2.1'
 end
 
 group :production do

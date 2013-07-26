@@ -1,6 +1,5 @@
 DiscussIt::Application.routes.draw do
-
-  get "users/new"
+  resources :users
   root 'static_pages#index'
   match '/signup', to: 'users#new',  via: 'get'
 
